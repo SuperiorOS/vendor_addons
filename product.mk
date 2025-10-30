@@ -16,9 +16,10 @@ PRODUCT_PACKAGE_OVERLAYS += \
 
 # Fonts
 PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files,*,vendor/addons/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts)
+    $(call find-copy-subdir-files,*,vendor/addons/prebuilt/product/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts)
 
 PRODUCT_PACKAGES += \
+    fonts_customization.xml \
     FontAccuratistOverlay \
     FontAclonicaOverlay \
     FontAmaranteOverlay \
@@ -32,7 +33,9 @@ PRODUCT_PACKAGES += \
     FontExotwoOverlay \
     FontFifa2018Overlay \
     FontGrandHotelOverlay \
+    FontGoogleSansFlexOverlay \
     FontHarmonySansOverlay \
+    FontLatoOverlay \
     FontLinotteOverlay \
     FontNokiaPureOverlay \
     FontNothingDotHeadlineOverlay \
@@ -46,6 +49,8 @@ PRODUCT_PACKAGES += \
     FontRedressedOverlay \
     FontReemKufiOverlay \
     FontRobotoCondensedOverlay \
+    FontRookeryOverlay \
+    FontRubikOverlay \
     FontSanFranciscoDisplayProSourceOverlay \
     FontSamsungOneOverlay \
     FontSansSerifOverlay \
