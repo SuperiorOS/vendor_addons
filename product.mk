@@ -57,29 +57,3 @@ PRODUCT_PACKAGES += \
     FontStoropiaOverlay \
     FontSurferOverlay \
     FontUbuntuOverlay
-
-# Icon Shapes
-PRODUCT_PACKAGES += \
-    IconShapeArchOverlay \
-    IconShapeCloudyOverlay \
-    IconShapeCylinderOverlay \
-    IconShapeFlowerOverlay \
-    IconShapeFourSidedCookieOverlay \
-    IconShapeHeartOverlay \
-    IconShapeHexagonOverlay \
-    IconShapeIosOverlay \
-    IconShapeLeafOverlay \
-    IconShapeMeowOverlay \
-    IconShapePebbleOverlay \
-    IconShapeRoundedHexagonOverlay \
-    IconShapeRoundedRectOverlay \
-    IconShapeSamsungOverlay \
-    IconShapeScrollOverlay \
-    IconShapeSevenSidedCookieOverlay \
-    IconShapeStretchedOverlay \
-    IconShapeSquareOverlay \
-    IconShapeSquircleOverlay \
-    IconShapeStretchedOverlay \
-    IconShapeTaperedRectOverlay \
-    IconShapeTeardropOverlay \
-    IconShapeVesselOverlay
